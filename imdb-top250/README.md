@@ -1,7 +1,6 @@
-# imdb-top250
-Scrapes IMDB top 250 movie list and creates a csv file as well as a bar plot.
+# IMDb WebScraping 
+<p>Scrapes IMDB top 250 movie list and creates a csv file with information for cinemaOS app.</p>
 
-required libraries
--pandas
--seaborn
--beautiful soup
+<h2>Required Libraries</h2>
+<li>Pandas</li>
+<li>BeautifulSoup</li>

@@ -1,11 +1,10 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
-import matplotlib.pyplot as plt
 from collections import Counter
 import csv
 
-
+#----------------------------------------------------------------------------#
 # Scrapes the IMDB's site
 source = requests.get('http://www.imdb.com/chart/top').text
 soup = BeautifulSoup(source, 'html.parser')
@@ -23,6 +22,7 @@ def get_movie_info(movie_info):
 def get_movie_rating(movie_ratings):
     return movie_ratings.contents[1].text
 
+#builds movie info and moving ratings for dataframes
 movie_infos = [get_movie_info(movie_scrap_line) for movie_scrap_line in movie_scrap_lines] 
 movie_rates =[get_movie_rating(movie_rating) for movie_rating in movie_ratings]
 
@@ -31,8 +31,34 @@ df = pd.DataFrame(movie_infos, columns=['number', 'title', 'year', 'link'])
 df2 = pd.DataFrame(movie_rates, columns=['rating'])
 df.to_csv('movielist.csv', index=False, encoding='utf-8')
 df2.to_csv('movierating.csv', index=False, encoding='utf-8')
+#----------------------------------------------------------------------------#
 
-a = pd.read_csv("movielist.csv")
-b = pd.read_csv("movierating.csv")
-merged = a.merge(b,left_on='link')
-merged.to_csv('test.csv', index=False, encoding='utf-8')
+#now get the director, description, cast, and image for each movie
+source = requests.get("https://www.imdb.com/title/tt0111161/").text
+stew = BeautifulSoup(source, 'html.parser')
+movie_summary = stew.find('div', attrs={'class' : 'summary_text'})
+movie_details = stew.find('div', attrs={'class' : 'credit_summary_item'})
+#movie_cast = stew.find('h4', attrs={'class' : 'inline'}, text="Stars:")
+
+#gets the movie summary
+def get_movie_summary(movie_summary):
+    return movie_summary.text
+summary = get_movie_summary(movie_summary)
+
+#gets the director and main cast members
+def get_movie_details(movie_details):
+    director = movie_details.contents[3].text
+    print(director)
+def get_movie_cast(movie_details):
+    cast_list = []
+    blah = movie_details.next_sibling
+    lah = blah.next_sibling
+    hah = lah.next_sibling
+    cast = hah.next_sibling.text
+
+    print(cast.replace("Cast:", ' '))
+   # cast_list.append(cast)
+
+
+#get_movie_details(movie_details)
+get_movie_cast(movie_details)
