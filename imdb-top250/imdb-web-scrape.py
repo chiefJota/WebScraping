@@ -4,6 +4,9 @@ import pandas as pd
 from collections import Counter
 import csv
 
+summary = []
+directors = []
+cast_list = []
 #----------------------------------------------------------------------------#
 # Scrapes the IMDB's site
 source = requests.get('http://www.imdb.com/chart/top').text
@@ -31,46 +34,98 @@ df = pd.DataFrame(movie_infos, columns=['number', 'title', 'year', 'link'])
 df2 = pd.DataFrame(movie_rates, columns=['rating'])
 df.to_csv('movielist.csv', index=False, encoding='utf-8')
 df2.to_csv('movierating.csv', index=False, encoding='utf-8')
-#----------------------------------------------------------------------------#
 
+#----------------------------------------------------------------------------#
 #now get the director, description, cast, and image for each movie
-source = requests.get("https://www.imdb.com/title/tt0111161/").text
-stew = BeautifulSoup(source, 'html.parser')
-movie_summary = stew.find('div', attrs={'class' : 'summary_text'})
-movie_details = stew.find('div', attrs={'class' : 'credit_summary_item'})
-#movie_cast = stew.find('h4', attrs={'class' : 'inline'}, string="Stars:")
 
 #gets the movie summary
 def get_movie_summary(movie_summary):
-    return movie_summary.text
-summary = get_movie_summary(movie_summary)
+    global summary
+    the_summary = movie_summary.text
+    theStory = the_summary.strip()
+    summary.append(theStory)
+    return summary
 
 #gets the director and main cast members
 def get_movie_details(movie_details):
+    global directors
     director = movie_details.contents[3].text
-    print(director)
+    directors.append(director)
+    return directors
 
-def get_movie_cast(movie_cast):
-    cast_list = []
-    cast1 = movie_cast.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
-    cast2 = movie_cast.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
-    cast3 = movie_cast.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
+def get_movie_cast(movie_details):
+    global cast_list
+
+
+
+    cast1 = movie_details.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
+    cast2 = movie_details.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
+    cast3 = movie_details.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
     star1 = cast1.text
     star2 = cast2.text
     star3 = cast3.text
     cast_list.append(star1)
     cast_list.append(star2)
     cast_list.append(star3)
-    for cast in cast_list:
-        print(cast)
 
+    print(star1, star2, star3)
 
-get_movie_details(movie_details)
-get_movie_cast(movie_details)
-
-
-#TODO: 
+    return cast_list
 # Go through csv file and get the links for each movie
-# put the links in a list and iterate over the list until done
+with open('movielist.csv') as csvfile:
+    links = []
+    readCSV = csv.reader(csvfile, delimiter=',')
+    # put the links in a list 
+    for row in readCSV:
+        link = row[3]
+        links.append(link)
+
+def collect_data():
+    #create string to mutate
+    http = "https://www.imdb.com"
+    address = " "
+   #skip the column name
+    for link in links[1:]:
+        #address we want is link
+        address = http + link
+        #get the source
+        source = requests.get(address).text
+        broth = BeautifulSoup(source, 'html.parser')
+
+        movie_summary = broth.find('div', attrs={'class' : 'summary_text'})
+        movie_details = broth.find('div', attrs={'class' : 'credit_summary_item'})
+        movie_cast = broth.find('h4', attrs={'class' : 'inline'})
+
+       
+        result = broth.select("h4 > Stars:")
+
+        #builds movie info and moving ratings for dataframes
+        movie_stuff = get_movie_details(movie_details) 
+        summaries = get_movie_summary(movie_summary) 
+        #movie_cast = get_movie_cast(movie_details) 
+    
+
+        df = pd.DataFrame(movie_stuff, columns=['director'])
+        df2 = pd.DataFrame(summaries, columns=['summary'])
+        df3 = pd.DataFrame(movie_cast, columns=['cast'])
+
+    df.to_csv('movieDetails.csv', index=False, encoding='utf-8')
+    df3.to_csv("movieCast.csv", index=False, encoding='utf-8')
+    df2.to_csv("movieSummaries.csv", index=False, encoding='utf-8')
+    
+
+
+
+
+#----------------------------------------------------------------------------#
+
+def main(): 
+
+    collect_data()
+
+if __name__ == "__main__":
+    main()
+
+
 # get the description, director, and cast for each movie
 #get the photo of the movie
