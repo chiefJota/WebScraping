@@ -53,23 +53,16 @@ def get_movie_details(movie_details):
     directors.append(director)
     return directors
 
-def get_movie_cast(movie_details):
+def get_movie_cast(movie_details, broth):
     global cast_list
+    actors_movie = []
+    results = broth.select('div.credit_summary_item > h4:contains("Stars:")~a[href^="/name/"]')
 
-
-
-    cast1 = movie_details.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
-    cast2 = movie_details.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
-    cast3 = movie_details.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
-    star1 = cast1.text
-    star2 = cast2.text
-    star3 = cast3.text
-    cast_list.append(star1)
-    cast_list.append(star2)
-    cast_list.append(star3)
-
-    print(star1, star2, star3)
-
+    for result in results:
+        actors_movie.append(result.text)
+    cast_list.append(actors_movie)
+   # print(cast_list)
+        
     return cast_list
 # Go through csv file and get the links for each movie
 with open('movielist.csv') as csvfile:
@@ -96,27 +89,22 @@ def collect_data():
         movie_details = broth.find('div', attrs={'class' : 'credit_summary_item'})
         movie_cast = broth.find('h4', attrs={'class' : 'inline'})
 
-       
-        result = broth.select("h4 > Stars:")
 
         #builds movie info and moving ratings for dataframes
         movie_stuff = get_movie_details(movie_details) 
         summaries = get_movie_summary(movie_summary) 
-        #movie_cast = get_movie_cast(movie_details) 
+        movie_cast = get_movie_cast(movie_details, broth) 
     
 
-        df = pd.DataFrame(movie_stuff, columns=['director'])
-        df2 = pd.DataFrame(summaries, columns=['summary'])
-        df3 = pd.DataFrame(movie_cast, columns=['cast'])
+        d_f = pd.DataFrame(movie_stuff, columns=['director'])
+        d_f2 = pd.DataFrame(summaries, columns=['summary'])
+        d_f3 = pd.DataFrame(movie_cast, columns=['cast', 'cast2', 'cast3'])
 
-    df.to_csv('movieDetails.csv', index=False, encoding='utf-8')
-    df3.to_csv("movieCast.csv", index=False, encoding='utf-8')
-    df2.to_csv("movieSummaries.csv", index=False, encoding='utf-8')
+    d_f.to_csv('movieDetails.csv', index=False, encoding='utf-8')
+    d_f2.to_csv("movieSummaries.csv", index=False, encoding='utf-8')
+    d_f3.to_csv("movieCast.csv", index=False, encoding='utf-8')
     
-
-
-
-
+    
 #----------------------------------------------------------------------------#
 
 def main(): 
@@ -126,6 +114,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-# get the description, director, and cast for each movie
-#get the photo of the movie
