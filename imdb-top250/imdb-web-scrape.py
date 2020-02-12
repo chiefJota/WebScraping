@@ -38,7 +38,7 @@ source = requests.get("https://www.imdb.com/title/tt0111161/").text
 stew = BeautifulSoup(source, 'html.parser')
 movie_summary = stew.find('div', attrs={'class' : 'summary_text'})
 movie_details = stew.find('div', attrs={'class' : 'credit_summary_item'})
-#movie_cast = stew.find('h4', attrs={'class' : 'inline'}, text="Stars:")
+#movie_cast = stew.find('h4', attrs={'class' : 'inline'}, string="Stars:")
 
 #gets the movie summary
 def get_movie_summary(movie_summary):
@@ -49,16 +49,28 @@ summary = get_movie_summary(movie_summary)
 def get_movie_details(movie_details):
     director = movie_details.contents[3].text
     print(director)
-def get_movie_cast(movie_details):
+
+def get_movie_cast(movie_cast):
     cast_list = []
-    blah = movie_details.next_sibling
-    lah = blah.next_sibling
-    hah = lah.next_sibling
-    cast = hah.next_sibling.text
+    cast1 = movie_cast.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
+    cast2 = movie_cast.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
+    cast3 = movie_cast.find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next().find_next()
+    star1 = cast1.text
+    star2 = cast2.text
+    star3 = cast3.text
+    cast_list.append(star1)
+    cast_list.append(star2)
+    cast_list.append(star3)
+    for cast in cast_list:
+        print(cast)
 
-    print(cast.replace("Cast:", ' '))
-   # cast_list.append(cast)
 
-
-#get_movie_details(movie_details)
+get_movie_details(movie_details)
 get_movie_cast(movie_details)
+
+
+#TODO: 
+# Go through csv file and get the links for each movie
+# put the links in a list and iterate over the list until done
+# get the description, director, and cast for each movie
+#get the photo of the movie
