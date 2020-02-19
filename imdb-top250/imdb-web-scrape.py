@@ -7,12 +7,15 @@ import csv
 summary = []
 directors = []
 cast_list = []
+
 #----------------------------------------------------------------------------#
 # Scrapes the IMDB's site
 source = requests.get('http://www.imdb.com/chart/top').text
 soup = BeautifulSoup(source, 'html.parser')
 movie_scrap_lines = soup.find_all('td', attrs={'class': 'titleColumn'})
 movie_ratings = soup.find_all('td', attrs={"class" : 'ratingColumn imdbRating'})
+ #get the poster column for the movies
+movie_posters = soup.find_all('td', attrs={'class': 'posterColumn'})
 
 
 #gets rank, title, date, and link
@@ -25,6 +28,20 @@ def get_movie_info(movie_info):
 def get_movie_rating(movie_ratings):
     return movie_ratings.contents[1].text
 
+#get image for each movie
+def get_movie_poster(movie_poster,soup):
+   #get contents
+    posters = soup.select('img[src^="https://m.media-amazon"]')
+    for poster in posters:
+        poster_link = poster['src']
+        poster_alt = poster['alt']
+        print()
+
+    
+  
+get_movie_poster(movie_posters, soup)
+
+
 #builds movie info and moving ratings for dataframes
 movie_infos = [get_movie_info(movie_scrap_line) for movie_scrap_line in movie_scrap_lines] 
 movie_rates =[get_movie_rating(movie_rating) for movie_rating in movie_ratings]
@@ -36,7 +53,7 @@ df.to_csv('movielist.csv', index=False, encoding='utf-8')
 df2.to_csv('movierating.csv', index=False, encoding='utf-8')
 
 #----------------------------------------------------------------------------#
-#now get the director, description, cast, and image for each movie
+#now get the director, description, and cast
 
 #gets the movie summary
 def get_movie_summary(movie_summary):
@@ -62,8 +79,11 @@ def get_movie_cast(movie_details, broth):
         actors_movie.append(result.text)
     cast_list.append(actors_movie)
    # print(cast_list)
-        
     return cast_list
+
+
+    
+
 # Go through csv file and get the links for each movie
 with open('movielist.csv') as csvfile:
     links = []
