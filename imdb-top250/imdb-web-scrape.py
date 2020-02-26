@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+from os.path import basename
 import pandas as pd
 from collections import Counter
 import csv

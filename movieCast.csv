@@ -19,8 +19,8 @@ Robert De Niro,Ray Liotta,Joe Pesci
 Jack Nicholson,Louise Fletcher,Will Sampson
 Toshirô Mifune,Takashi Shimura,Keiko Tsushima
 Morgan Freeman,Brad Pitt,Kevin Spacey
-Kang-ho Song,Sun-kyun Lee,Yeo-jeong Jo
 Alexandre Rodrigues,Leandro Firmino,Matheus Nachtergaele
+Kang-ho Song,Sun-kyun Lee,Yeo-jeong Jo
 Roberto Benigni,Nicoletta Braschi,Giorgio Cantarini
 Jodie Foster,Anthony Hopkins,Lawrence A. Bonney
 James Stewart,Donna Reed,Lionel Barrymore
@@ -35,7 +35,6 @@ Tatsuya Nakadai,Akira Ishihama,Shima Iwashita
 Matthew Broderick,Jeremy Irons,James Earl Jones
 Edward Norton,Edward Furlong,Beverly D'Angelo
 Arnold Schwarzenegger,Linda Hamilton,Edward Furlong
-Joaquin Phoenix,Robert De Niro,Zazie Beetz
 Michael J. Fox,Christopher Lloyd,Lea Thompson
 Adrien Brody,Thomas Kretschmann,Frank Finlay
 Charles Chaplin,Paulette Goddard,Henry Bergman
@@ -44,26 +43,27 @@ Russell Crowe,Joaquin Phoenix,Connie Nielsen
 Charles Chaplin,Virginia Cherrill,Florence Lee
 François Cluzet,Omar Sy,Anne Le Ny
 Leonardo DiCaprio,Matt Damon,Jack Nicholson
+Joaquin Phoenix,Robert De Niro,Zazie Beetz
 Miles Teller,J.K. Simmons,Melissa Benoist
-Henry Fonda,Charles Bronson,Claudia Cardinale
 Christian Bale,Hugh Jackman,Scarlett Johansson
+Henry Fonda,Charles Bronson,Claudia Cardinale
 Humphrey Bogart,Ingrid Bergman,Paul Henreid
 Tsutomu Tatsumi,Ayano Shiraishi,Akemi Yamaguchi
 James Stewart,Grace Kelly,Wendell Corey
 Philippe Noiret,Enzo Cannavale,Antonella Attili
 Sigourney Weaver,Tom Skerritt,John Hurt
-Dean-Charles Chapman,George MacKay,Daniel Mays
 Harrison Ford,Karen Allen,Paul Freeman
 Martin Sheen,Marlon Brando,Robert Duvall
 Guy Pearce,Carrie-Anne Moss,Joe Pantoliano
 Charles Chaplin,Paulette Goddard,Jack Oakie
+Dean-Charles Chapman,George MacKay,Daniel Mays
 Ulrich Mühe,Martina Gedeck,Sebastian Koch
 Jamie Foxx,Christoph Waltz,Leonardo DiCaprio
 Robert Downey Jr.,Chris Hemsworth,Mark Ruffalo
 Kirk Douglas,Ralph Meeker,Adolphe Menjou
 Jack Nicholson,Shelley Duvall,Danny Lloyd
-Robert Downey Jr.,Chris Evans,Mark Ruffalo
 Ben Burtt,Elissa Knight,Jeff Garlin
+Robert Downey Jr.,Chris Evans,Mark Ruffalo
 Shameik Moore,Jake Johnson,Hailee Steinfeld
 Yôji Matsuda,Yuriko Ishida,Yûko Tanaka
 William Holden,Gloria Swanson,Erich von Stroheim
@@ -78,9 +78,9 @@ Kevin Spacey,Annette Bening,Thora Birch
 Anthony Gonzalez,Gael García Bernal,Benjamin Bratt
 Mel Gibson,Sophie Marceau,Patrick McGoohan
 Jürgen Prochnow,Herbert Grönemeyer,Klaus Wennemann
-Toshirô Mifune,Yutaka Sada,Tatsuya Nakadai
 Aamir Khan,Madhavan,Mona Singh
 Tom Hanks,Tim Allen,Don Rickles
+Toshirô Mifune,Yutaka Sada,Tatsuya Nakadai
 Mark Hamill,Harrison Ford,Carrie Fisher
 Darsheel Safary,Aamir Khan,Tisca Chopra
 F. Murray Abraham,Tom Hulce,Elizabeth Berridge
@@ -88,8 +88,8 @@ Harvey Keitel,Tim Roth,Michael Madsen
 Brad Pitt,Diane Kruger,Eli Roth
 Robin Williams,Matt Damon,Ben Affleck
 Keir Dullea,Gary Lockwood,William Sylvester
-Peter Lorre,Ellen Widmann,Inge Landgut
 Ellen Burstyn,Jared Leto,Jennifer Connelly
+Peter Lorre,Ellen Widmann,Inge Landgut
 James Stewart,Kim Novak,Barbara Bel Geddes
 Aamir Khan,Sakshi Tanwar,Fatima Sana Shaikh
 Jim Carrey,Kate Winslet,Tom Wilkinson
@@ -133,11 +133,11 @@ Mohammad Amir Naji,Amir Farrokh Hashemian,Bahare Seddiqi
 Marilyn Monroe,Tony Curtis,Jack Lemmon
 Chieko Baishô,Takuya Kimura,Tatsuya Gashûin
 Aleksey Kravchenko,Olga Mironova,Liubomiras Laucevicius
-Steve McQueen,James Garner,Richard Attenborough
 Tatsuya Nakadai,Akira Terao,Jinpachi Nezu
-Hitoshi Takagi,Noriko Hidaka,Chika Sakamoto
+Steve McQueen,James Garner,Richard Attenborough
 Bette Davis,Anne Baxter,George Sanders
 Russell Crowe,Ed Harris,Jennifer Connelly
+Hitoshi Takagi,Noriko Hidaka,Chika Sakamoto
 Robert De Niro,Sharon Stone,Joe Pesci
 Ivana Baquero,Ariadna Gil,Sergi López
 Robert De Niro,Cathy Moriarty,Joe Pesci
@@ -147,9 +147,9 @@ Leonardo DiCaprio,Jonah Hill,Margot Robbie
 Humphrey Bogart,Walter Huston,Tim Holt
 Spencer Tracy,Burt Lancaster,Richard Widmark
 Frances McDormand,Woody Harrelson,Sam Rockwell
-Çetin Tekindor,Fikret Kuskan,Hümeyra
-Jack Nicholson,Faye Dunaway,John Huston
 Daniel Day-Lewis,Paul Dano,Ciarán Hinds
+Jack Nicholson,Faye Dunaway,John Huston
+Çetin Tekindor,Fikret Kuskan,Hümeyra
 Charles Chaplin,Mack Swain,Tom Murray
 Ray Milland,Grace Kelly,Robert Cummings
 Hugo Weaving,Natalie Portman,Rupert Graves
@@ -160,37 +160,37 @@ Tommy Lee Jones,Javier Bardem,Josh Brolin
 Ewan McGregor,Ewen Bremner,Jonny Lee Miller
 Anthony Hopkins,John Hurt,Anne Bancroft
 Leonardo DiCaprio,Emily Mortimer,Mark Ruffalo
-Brie Larson,Jacob Tremblay,Sean Bridgers
 Bruce Willis,Haley Joel Osment,Toni Collette
+Brie Larson,Jacob Tremblay,Sean Bridgers
 Kurt Russell,Wilford Brimley,Keith David
 Clark Gable,Vivien Leigh,Thomas Mitchell
 Harrison Ford,Rutger Hauer,Sean Young
-William Holden,Alec Guinness,Jack Hawkins
 Sam Neill,Laura Dern,Jeff Goldblum
+William Holden,Alec Guinness,Jack Hawkins
 Orson Welles,Joseph Cotten,Alida Valli
 Marlon Brando,Karl Malden,Lee J. Cobb
 Albert Brooks,Ellen DeGeneres,Alexander Gould
 Victor Sjöström,Bibi Andersson,Ingrid Thulin
-Matt Damon,Christian Bale,Jon Bernthal
 William H. Macy,Frances McDormand,Steve Buscemi
-Clint Eastwood,Bee Vang,Christopher Carley
 Uma Thurman,David Carradine,Daryl Hannah
+Clint Eastwood,Bee Vang,Christopher Carley
 Robert De Niro,Christopher Walken,John Cazale
-Chishû Ryû,Chieko Higashiyama,Sô Yamamura
-Jim Carrey,Ed Harris,Laura Linney
-Ayushmann Khurrana,Tabu,Radhika Apte
 Alisa Freyndlikh,Aleksandr Kaydanovskiy,Anatoliy Solonitsyn
+Jim Carrey,Ed Harris,Laura Linney
+Chishû Ryû,Chieko Higashiyama,Sô Yamamura
+Matt Damon,Christian Bale,Jon Bernthal
 Sener Sen,Ugur Yücel,Sermin Hürmeriç
 Darío Grandinetti,María Marull,Mónica Villa
-Jeff Bridges,John Goodman,Julianne Moore
+Ayushmann Khurrana,Tabu,Radhika Apte
 Kang-ho Song,Sang-kyung Kim,Roe-ha Kim
+Jeff Bridges,John Goodman,Julianne Moore
 Toni Collette,Philip Seymour Hoffman,Eric Bana
-Jason Schwartzman,J.K. Simmons,Rashida Jones
 Daniel Day-Lewis,Pete Postlethwaite,Alison Crosbie
 Ben Affleck,Rosamund Pike,Neil Patrick Harris
+Jason Schwartzman,J.K. Simmons,Rashida Jones
 Andrew Garfield,Sam Worthington,Luke Bracey
-James Stewart,Jean Arthur,Claude Rains
 Ralph Fiennes,F. Murray Abraham,Mathieu Amalric
+James Stewart,Jean Arthur,Claude Rains
 Jay Baruchel,Gerard Butler,Christopher Mintz-Plasse
 Buster Keaton,Marion Mack,Glen Cavender
 Buster Keaton,Kathryn McGuire,Joe Keaton
@@ -201,8 +201,8 @@ Hugh Jackman,Jake Gyllenhaal,Viola Davis
 Chiwetel Ejiofor,Michael Kenneth Williams,Michael Fassbender
 Paul Newman,George Kennedy,Strother Martin
 Emile Hirsch,Vince Vaughn,Catherine Keener
-Faye Dunaway,William Holden,Peter Finch
 Yves Montand,Charles Vanel,Peter van Eyck
+Faye Dunaway,William Holden,Peter Finch
 Wil Wheaton,River Phoenix,Corey Feldman
 Tom Hardy,Charlize Theron,Nicholas Hoult
 Graham Chapman,John Cleese,Michael Palin
@@ -210,42 +210,42 @@ Ryan O'Neal,Marisa Berenson,Patrick Magee
 Charlie Sheen,Tom Berenger,Willem Dafoe
 Hilary Swank,Clint Eastwood,Morgan Freeman
 Richard Gere,Joan Allen,Cary-Hiroyuki Tagawa
-Maria Falconetti,Eugene Silvain,André Berley
 Daniel Brühl,Chris Hemsworth,Olivia Wilde
+Maria Falconetti,Eugene Silvain,André Berley
 Hugh Jackman,Patrick Stewart,Dafne Keen
 Charlton Heston,Jack Hawkins,Stephen Boyd
-Anatoliy Solonitsyn,Ivan Lapikov,Nikolay Grinko
 Aamir Khan,Soha Ali Khan,Siddharth
 Sumi Shimamoto,Mahito Tsujimura,Hisako Kyôda
+Anatoliy Solonitsyn,Ivan Lapikov,Nikolay Grinko
 Daniel Radcliffe,Emma Watson,Rupert Grint
-Jean-Pierre Léaud,Albert Rémy,Claire Maurier
 Robin Williams,Robert Sean Leonard,Ethan Hawke
+Jean-Pierre Léaud,Albert Rémy,Claire Maurier
 Emilio Echevarría,Gael García Bernal,Goya Toledo
 Don Cheadle,Sophie Okonedo,Joaquin Phoenix
 Mark Ruffalo,Michael Keaton,Rachel McAdams
 Laurence Olivier,Joan Fontaine,George Sanders
-Sylvester Stallone,Talia Shire,Burt Young
 Min-hee Kim,Jung-woo Ha,Jin-woong Cho
+Sylvester Stallone,Talia Shire,Burt Young
 Billy Crystal,John Goodman,Mary Gibbs
-Anton Walbrook,Marius Goring,Moira Shearer
-Kirk Douglas,Jan Sterling,Robert Arthur
 Vincent Cassel,Hubert Koundé,Saïd Taghmaoui
 Clark Gable,Claudette Colbert,Walter Connolly
-James Cagney,Virginia Mayo,Edmond O'Brien
+Kirk Douglas,Jan Sterling,Robert Arthur
+Anton Walbrook,Marius Goring,Moira Shearer
 Cary Elwes,Mandy Patinkin,Robin Wright
-Aamir Khan,Raghuvir Yadav,Gracy Singh
+James Cagney,Virginia Mayo,Edmond O'Brien
 Ethan Hawke,Julie Delpy,Vernon Dobtcheff
 Tony Chiu-Wai Leung,Maggie Cheung,Ping Lam Siu
+Aamir Khan,Raghuvir Yadav,Gracy Singh
 Manoj Bajpayee,Richa Chadha,Nawazuddin Siddiqui
 Emma Stone,Viola Davis,Octavia Spencer
 Arnold Schwarzenegger,Linda Hamilton,Michael Biehn
-Adam Driver,Scarlett Johansson,Julia Greer
 Paul Newman,Robert Redford,Katharine Ross
 Harry Dean Stanton,Nastassja Kinski,Dean Stockwell
 Mitsuo Iwata,Nozomu Sasaki,Mami Koyama
 Aamir Khan,Anushka Sharma,Sanjay Dutt
-Mario Casas,Ana Wagener,Jose Coronado
 Scott Weinger,Robin Williams,Linda Larkin
+Mario Casas,Ana Wagener,Jose Coronado
 Chris Pratt,Vin Diesel,Bradley Cooper
 Megumi Ogata,Megumi Hayashibara,Yûko Miyamura
-Haluk Bilginer,Melisa Sözen,Demet Akbag
+Bill Murray,Andie MacDowell,Chris Elliott
+Shah Rukh Khan,Gayatri Joshi,Kishori Ballal
