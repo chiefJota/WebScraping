@@ -19,8 +19,8 @@ number,title,year,link
 18,One Flew Over the Cuckoo's Nest,1975,/title/tt0073486/
 19,Seven Samurai,1954,/title/tt0047478/
 20,Se7en,1995,/title/tt0114369/
-21,Parasite,2019,/title/tt6751668/
-22,City of God,2002,/title/tt0317248/
+21,City of God,2002,/title/tt0317248/
+22,Parasite,2019,/title/tt6751668/
 23,Life Is Beautiful,1997,/title/tt0118799/
 24,The Silence of the Lambs,1991,/title/tt0102926/
 25,It's a Wonderful Life,1946,/title/tt0038650/
@@ -35,36 +35,36 @@ number,title,year,link
 34,The Lion King,1994,/title/tt0110357/
 35,American History X,1998,/title/tt0120586/
 36,Terminator 2: Judgment Day,1991,/title/tt0103064/
-37,Joker,2019,/title/tt7286456/
-38,Back to the Future,1985,/title/tt0088763/
-39,The Pianist,2002,/title/tt0253474/
-40,Modern Times,1936,/title/tt0027977/
-41,Psycho,1960,/title/tt0054215/
-42,Gladiator,2000,/title/tt0172495/
-43,City Lights,1931,/title/tt0021749/
-44,The Intouchables,2011,/title/tt1675434/
-45,The Departed,2006,/title/tt0407887/
+37,Back to the Future,1985,/title/tt0088763/
+38,The Pianist,2002,/title/tt0253474/
+39,Modern Times,1936,/title/tt0027977/
+40,Psycho,1960,/title/tt0054215/
+41,Gladiator,2000,/title/tt0172495/
+42,City Lights,1931,/title/tt0021749/
+43,The Intouchables,2011,/title/tt1675434/
+44,The Departed,2006,/title/tt0407887/
+45,Joker,2019,/title/tt7286456/
 46,Whiplash,2014,/title/tt2582802/
-47,Once Upon a Time in the West,1968,/title/tt0064116/
-48,The Prestige,2006,/title/tt0482571/
+47,The Prestige,2006,/title/tt0482571/
+48,Once Upon a Time in the West,1968,/title/tt0064116/
 49,Casablanca,1942,/title/tt0034583/
 50,Grave of the Fireflies,1988,/title/tt0095327/
 51,Rear Window,1954,/title/tt0047396/
 52,Cinema Paradiso,1988,/title/tt0095765/
 53,Alien,1979,/title/tt0078748/
-54,1917,2019,/title/tt8579674/
-55,Raiders of the Lost Ark,1981,/title/tt0082971/
-56,Apocalypse Now,1979,/title/tt0078788/
-57,Memento,2000,/title/tt0209144/
-58,The Great Dictator,1940,/title/tt0032553/
+54,Raiders of the Lost Ark,1981,/title/tt0082971/
+55,Apocalypse Now,1979,/title/tt0078788/
+56,Memento,2000,/title/tt0209144/
+57,The Great Dictator,1940,/title/tt0032553/
+58,1917,2019,/title/tt8579674/
 59,The Lives of Others,2006,/title/tt0405094/
 60,Django Unchained,2012,/title/tt1853728/
 61,Avengers: Infinity War,2018,/title/tt4154756/
 62,Paths of Glory,1957,/title/tt0050825/
 63,The Shining,1980,/title/tt0081505/
-64,Avengers: Endgame,2019,/title/tt4154796/
-65,WALL·E,2008,/title/tt0910970/
-66,Spider-Man: Into the Spider-Verse,2018,/title/tt4633694/
+64,WALL·E,2008,/title/tt0910970/
+65,Spider-Man: Into the Spider-Verse,2018,/title/tt4633694/
+66,Avengers: Endgame,2019,/title/tt4154796/
 67,Princess Mononoke,1997,/title/tt0119698/
 68,Sunset Blvd.,1950,/title/tt0043014/
 69,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,/title/tt0057012/
@@ -78,9 +78,9 @@ number,title,year,link
 77,Coco,2017,/title/tt2380307/
 78,Braveheart,1995,/title/tt0112573/
 79,Das Boot,1981,/title/tt0082096/
-80,High and Low,1963,/title/tt0057565/
-81,3 Idiots,2009,/title/tt1187043/
-82,Toy Story,1995,/title/tt0114709/
+80,3 Idiots,2009,/title/tt1187043/
+81,Toy Story,1995,/title/tt0114709/
+82,High and Low,1963,/title/tt0057565/
 83,Star Wars: Episode VI - Return of the Jedi,1983,/title/tt0086190/
 84,Taare Zameen Par,2007,/title/tt0986264/
 85,Amadeus,1984,/title/tt0086879/
@@ -88,8 +88,8 @@ number,title,year,link
 87,Inglourious Basterds,2009,/title/tt0361748/
 88,Good Will Hunting,1997,/title/tt0119217/
 89,2001: A Space Odyssey,1968,/title/tt0062622/
-90,M,1931,/title/tt0022100/
-91,Requiem for a Dream,2000,/title/tt0180093/
+90,Requiem for a Dream,2000,/title/tt0180093/
+91,M,1931,/title/tt0022100/
 92,Vertigo,1958,/title/tt0052357/
 93,Dangal,2016,/title/tt5074352/
 94,Eternal Sunshine of the Spotless Mind,2004,/title/tt0338013/
@@ -133,11 +133,11 @@ number,title,year,link
 132,Some Like It Hot,1959,/title/tt0053291/
 133,Howl's Moving Castle,2004,/title/tt0347149/
 134,Come and See,1985,/title/tt0091251/
-135,The Great Escape,1963,/title/tt0057115/
-136,Ran,1985,/title/tt0089881/
-137,My Neighbor Totoro,1988,/title/tt0096283/
-138,All About Eve,1950,/title/tt0042192/
-139,A Beautiful Mind,2001,/title/tt0268978/
+135,Ran,1985,/title/tt0089881/
+136,The Great Escape,1963,/title/tt0057115/
+137,All About Eve,1950,/title/tt0042192/
+138,A Beautiful Mind,2001,/title/tt0268978/
+139,My Neighbor Totoro,1988,/title/tt0096283/
 140,Casino,1995,/title/tt0112641/
 141,Pan's Labyrinth,2006,/title/tt0457430/
 142,Raging Bull,1980,/title/tt0081398/
@@ -147,9 +147,9 @@ number,title,year,link
 146,The Treasure of the Sierra Madre,1948,/title/tt0040897/
 147,Judgment at Nuremberg,1961,/title/tt0055031/
 148,"Three Billboards Outside Ebbing, Missouri",2017,/title/tt5027774/
-149,Babam ve Oglum,2005,/title/tt0476735/
+149,There Will Be Blood,2007,/title/tt0469494/
 150,Chinatown,1974,/title/tt0071315/
-151,There Will Be Blood,2007,/title/tt0469494/
+151,Babam ve Oglum,2005,/title/tt0476735/
 152,The Gold Rush,1925,/title/tt0015864/
 153,Dial M for Murder,1954,/title/tt0046912/
 154,V for Vendetta,2005,/title/tt0434409/
@@ -160,8 +160,8 @@ number,title,year,link
 159,Trainspotting,1996,/title/tt0117951/
 160,The Elephant Man,1980,/title/tt0080678/
 161,Shutter Island,2010,/title/tt1130884/
-162,Room,2015,/title/tt3170832/
-163,The Sixth Sense,1999,/title/tt0167404/
+162,The Sixth Sense,1999,/title/tt0167404/
+163,Room,2015,/title/tt3170832/
 164,The Thing,1982,/title/tt0084787/
 165,Gone with the Wind,1939,/title/tt0031381/
 166,Blade Runner,1982,/title/tt0083658/
@@ -171,26 +171,26 @@ number,title,year,link
 170,On the Waterfront,1954,/title/tt0047296/
 171,Finding Nemo,2003,/title/tt0266543/
 172,Wild Strawberries,1957,/title/tt0050986/
-173,Ford v Ferrari,2019,/title/tt1950186/
-174,Fargo,1996,/title/tt0116282/
+173,Fargo,1996,/title/tt0116282/
+174,Kill Bill: Vol. 1,2003,/title/tt0266697/
 175,Gran Torino,2008,/title/tt1205489/
-176,Kill Bill: Vol. 1,2003,/title/tt0266697/
-177,The Deer Hunter,1978,/title/tt0077416/
-178,Tokyo Story,1953,/title/tt0046438/
-179,The Truman Show,1998,/title/tt0120382/
-180,Andhadhun,2018,/title/tt8108198/
-181,Stalker,1979,/title/tt0079944/
-182,The Bandit,1996,/title/tt0116231/
-183,Relatos salvajes,2014,/title/tt3011894/
-184,The Big Lebowski,1998,/title/tt0118715/
-185,Memories of Murder,2003,/title/tt0353969/
+176,The Deer Hunter,1978,/title/tt0077416/
+177,Stalker,1979,/title/tt0079944/
+178,The Truman Show,1998,/title/tt0120382/
+179,Tokyo Story,1953,/title/tt0046438/
+180,Ford v Ferrari,2019,/title/tt1950186/
+181,The Bandit,1996,/title/tt0116231/
+182,Relatos salvajes,2014,/title/tt3011894/
+183,Andhadhun,2018,/title/tt8108198/
+184,Memories of Murder,2003,/title/tt0353969/
+185,The Big Lebowski,1998,/title/tt0118715/
 186,Mary and Max,2009,/title/tt0978762/
-187,Klaus,2019,/title/tt4729430/
-188,In the Name of the Father,1993,/title/tt0107207/
-189,Gone Girl,2014,/title/tt2267998/
+187,In the Name of the Father,1993,/title/tt0107207/
+188,Gone Girl,2014,/title/tt2267998/
+189,Klaus,2019,/title/tt4729430/
 190,Hacksaw Ridge,2016,/title/tt2119532/
-191,Mr. Smith Goes to Washington,1939,/title/tt0031679/
-192,The Grand Budapest Hotel,2014,/title/tt2278388/
+191,The Grand Budapest Hotel,2014,/title/tt2278388/
+192,Mr. Smith Goes to Washington,1939,/title/tt0031679/
 193,How to Train Your Dragon,2010,/title/tt0892769/
 194,The General,1926,/title/tt0017925/
 195,Sherlock Jr.,1924,/title/tt0015324/
@@ -201,8 +201,8 @@ number,title,year,link
 200,12 Years a Slave,2013,/title/tt2024544/
 201,Cool Hand Luke,1967,/title/tt0061512/
 202,Into the Wild,2007,/title/tt0758758/
-203,Network,1976,/title/tt0074958/
-204,The Wages of Fear,1953,/title/tt0046268/
+203,The Wages of Fear,1953,/title/tt0046268/
+204,Network,1976,/title/tt0074958/
 205,Stand by Me,1986,/title/tt0092005/
 206,Mad Max: Fury Road,2015,/title/tt1392190/
 207,Monty Python's Life of Brian,1979,/title/tt0079470/
@@ -210,42 +210,42 @@ number,title,year,link
 209,Platoon,1986,/title/tt0091763/
 210,Million Dollar Baby,2004,/title/tt0405159/
 211,Hachi: A Dog's Tale,2009,/title/tt1028532/
-212,The Passion of Joan of Arc,1928,/title/tt0019254/
-213,Rush,2013,/title/tt1979320/
+212,Rush,2013,/title/tt1979320/
+213,The Passion of Joan of Arc,1928,/title/tt0019254/
 214,Logan,2017,/title/tt3315342/
 215,Ben-Hur,1959,/title/tt0052618/
-216,Andrei Rublev,1966,/title/tt0060107/
-217,Rang De Basanti,2006,/title/tt0405508/
-218,Nausicaä of the Valley of the Wind,1984,/title/tt0087544/
+216,Rang De Basanti,2006,/title/tt0405508/
+217,Nausicaä of the Valley of the Wind,1984,/title/tt0087544/
+218,Andrei Rublev,1966,/title/tt0060107/
 219,Harry Potter and the Deathly Hallows: Part 2,2011,/title/tt1201607/
-220,The 400 Blows,1959,/title/tt0053198/
-221,Dead Poets Society,1989,/title/tt0097165/
+220,Dead Poets Society,1989,/title/tt0097165/
+221,The 400 Blows,1959,/title/tt0053198/
 222,Amores Perros,2000,/title/tt0245712/
 223,Hotel Rwanda,2004,/title/tt0395169/
 224,Spotlight,2015,/title/tt1895587/
 225,Rebecca,1940,/title/tt0032976/
-226,Rocky,1976,/title/tt0075148/
-227,The Handmaiden,2016,/title/tt4016934/
+226,The Handmaiden,2016,/title/tt4016934/
+227,Rocky,1976,/title/tt0075148/
 228,"Monsters, Inc.",2001,/title/tt0198781/
-229,The Red Shoes,1948,/title/tt0040725/
-230,Ace in the Hole,1951,/title/tt0043338/
-231,La Haine,1995,/title/tt0113247/
-232,It Happened One Night,1934,/title/tt0025316/
-233,White Heat,1949,/title/tt0042041/
-234,The Princess Bride,1987,/title/tt0093779/
-235,Lagaan: Once Upon a Time in India,2001,/title/tt0169102/
-236,Before Sunset,2004,/title/tt0381681/
-237,In the Mood for Love,2000,/title/tt0118694/
+229,La Haine,1995,/title/tt0113247/
+230,It Happened One Night,1934,/title/tt0025316/
+231,Ace in the Hole,1951,/title/tt0043338/
+232,The Red Shoes,1948,/title/tt0040725/
+233,The Princess Bride,1987,/title/tt0093779/
+234,White Heat,1949,/title/tt0042041/
+235,Before Sunset,2004,/title/tt0381681/
+236,In the Mood for Love,2000,/title/tt0118694/
+237,Lagaan: Once Upon a Time in India,2001,/title/tt0169102/
 238,Gangs of Wasseypur,2012,/title/tt1954470/
 239,The Help,2011,/title/tt1454029/
 240,The Terminator,1984,/title/tt0088247/
-241,Marriage Story,2019,/title/tt7653254/
-242,Butch Cassidy and the Sundance Kid,1969,/title/tt0064115/
-243,"Paris, Texas",1984,/title/tt0087884/
-244,Akira,1988,/title/tt0094625/
-245,PK,2014,/title/tt2338151/
+241,Butch Cassidy and the Sundance Kid,1969,/title/tt0064115/
+242,"Paris, Texas",1984,/title/tt0087884/
+243,Akira,1988,/title/tt0094625/
+244,PK,2014,/title/tt2338151/
+245,Aladdin,1992,/title/tt0103639/
 246,The Invisible Guest,2016,/title/tt4857264/
-247,Aladdin,1992,/title/tt0103639/
-248,Guardians of the Galaxy,2014,/title/tt2015381/
-249,Neon Genesis Evangelion: The End of Evangelion,1997,/title/tt0169858/
-250,Kis Uykusu,2014,/title/tt2758880/
+247,Guardians of the Galaxy,2014,/title/tt2015381/
+248,Neon Genesis Evangelion: The End of Evangelion,1997,/title/tt0169858/
+249,Groundhog Day,1993,/title/tt0107048/
+250,Le Samouraï,1967,/title/tt0062229/

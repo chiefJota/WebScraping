@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-from os.path import basename
 import pandas as pd
 from collections import Counter
 import csv
@@ -25,6 +24,12 @@ def get_movie_info(movie_info):
             movie_info.contents[1].text,
             movie_info.find('span').text[1:-1], movie_info.contents[1].get('href'))
 
+#only want rank title 
+def get_movie_info_overload(movie_info):
+    return (movie_info.contents[0][7:-8],
+            movie_info.contents[1].text,
+            movie_info.find('span').text[1:-1])
+
 #gets rating
 def get_movie_rating(movie_ratings):
     return movie_ratings.contents[1].text
@@ -39,8 +44,6 @@ def get_movie_poster(movie_poster,soup):
         with open(str(index) + ".jpg", "wb") as f:
             f.write(requests.get(poster_link).content)
         index = index + 1
-    # for poster in posters:
-        #poster_alt = poster['alt']
        
 get_movie_poster(movie_posters, soup)
 
@@ -85,7 +88,7 @@ def get_movie_cast(movie_details, broth):
     return cast_list
 
 
-    
+#----------------------------------------------------------------------------#    
 
 # Go through csv file and get the links for each movie
 with open('movielist.csv') as csvfile:
@@ -132,7 +135,7 @@ def collect_data():
 
 def main(): 
 
-    collect_data()
+   collect_data()
 
 if __name__ == "__main__":
     main()
