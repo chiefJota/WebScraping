@@ -33,13 +33,15 @@ def get_movie_rating(movie_ratings):
 def get_movie_poster(movie_poster,soup):
    #get contents
     posters = soup.select('img[src^="https://m.media-amazon"]')
-    for poster in posters:
-        poster_link = poster['src']
-        poster_alt = poster['alt']
-        print()
-
-    
-  
+    index = 0
+    for link in posters:
+        poster_link = link['src']
+        with open(str(index) + ".jpg", "wb") as f:
+            f.write(requests.get(poster_link).content)
+        index = index + 1
+    # for poster in posters:
+        #poster_alt = poster['alt']
+       
 get_movie_poster(movie_posters, soup)
 
 
